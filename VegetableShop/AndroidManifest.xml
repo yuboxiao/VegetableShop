@@ -1,0 +1,90 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.whut.vegetableshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.whut.vs.application.SApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.whut.vs.ui.BalanceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.CashierDeskActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.DeliveryTimeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.FavoritesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.FillInOrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.GoodsListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.MonthBillActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.NewShippingAddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.OneGoodsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.SetAddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.SetPayPasswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.OrderTrackingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.OrderDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.RechargeChoiceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.whut.vs.ui.ShippingAddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+    </application>
+
+</manifest>

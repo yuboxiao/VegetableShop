@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="存储条件："
+            android:textSize="12sp"
+            android:textColor="#cccccc" 
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:text="冷藏"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="重量(含包装):"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:text="0.500(kg)"
+            android:textColor="#cccccc"
+            android:textSize="12sp"
+             android:singleLine="true"
+             />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="销售单位："
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:text="盒"
+            android:textColor="#cccccc"
+            android:textSize="12sp"
+             android:singleLine="true"
+             />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="产地:"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:text="中国"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="规格："
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:text="500g"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_normal_rectangle_shape"
+            android:padding="10dp"
+            android:textColor="#cccccc" 
+            android:textSize="12sp"
+             android:singleLine="true"
+            />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#E6E6FA" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#ffffff"
+        />
+
+</LinearLayout>

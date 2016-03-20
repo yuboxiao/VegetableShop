@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/returnback"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="配送时间"
+            android:textSize="15sp"
+            android:layout_centerInParent="true"/>
+        
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:text="上午6--9点"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginLeft="20dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="上午9--12点"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginLeft="20dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="下午1--8点"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginLeft="20dp"/>
+    
+</LinearLayout>

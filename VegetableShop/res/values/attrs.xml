@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AdvancedGridView">
+        <attr name="row" format="integer" />
+        <attr name="column" format="integer" />
+    </declare-styleable>
+
+</resources>

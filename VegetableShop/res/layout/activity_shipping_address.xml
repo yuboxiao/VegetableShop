@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/returnback"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="收货地址"
+            android:textSize="15sp"/>
+        
+        <Button
+            android:id="@+id/bt_new_address"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="+"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:background="@color/white"/>
+        
+    </RelativeLayout>      
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" 
+        android:background="@color/gray"/>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginTop="80dp"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="第二菜场还不知道送货到哪里"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="新建地址"
+                android:textSize="20sp"
+                android:textColor="@color/orange"
+                android:layout_gravity="center_horizontal"/>
+                
+        </LinearLayout>  
+        
+        <ListView
+        android:id="@+id/activity_shipping_address_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        </ListView>
+
+    </FrameLayout>
+    
+</LinearLayout>

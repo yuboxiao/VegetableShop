@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/tv_pay_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:text="转账"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/zuji_no_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pay_item"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="余额:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_yue_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/zuji_no_use"
+            android:layout_alignBottom="@+id/zuji_no_use"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/zuji_no_use"
+            android:text="4.50"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_bill_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_yue_money"
+            android:layout_alignBottom="@+id/tv_yue_money"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="42dp"
+            android:text="+2000.00"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_pay_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_pay_item"
+            android:layout_alignBottom="@+id/tv_pay_item"
+            android:layout_alignLeft="@+id/tv_bill_money"
+            android:text="2016-01-02"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+</RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+</LinearLayout>
